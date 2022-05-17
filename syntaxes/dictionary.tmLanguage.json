@@ -1,0 +1,29 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "dictionary",
+    "scopeName": "source.dictionary",
+    "patterns": [
+        {
+            "include": "#comment"
+        },
+        {
+            "include": "#keywords"
+        }
+    ],
+    "repository": {
+        "comment": {
+            "name": "comment.line.dictionary",
+            "begin": "#+\\s+?",
+            "end": "$",
+            "patterns": []
+        },
+        "keywords": {
+            "patterns": [
+                {
+                    "name": "keyword.operator.flag.dictionary",
+                    "match": "(^\\!)"
+                }
+            ]
+        }
+    }
+}

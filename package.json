@@ -1,0 +1,60 @@
+{
+    "name": "vscode-dictionary-syntax",
+    "displayName": "vscode-dictionary-syntax",
+    "description": "Syntax highlighting for dictionary files. Not much different from plain text files.",
+    "version": "0.1.0",
+    "license": "MIT",
+    "publisher": "dunstontc",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tcd/vscode-dictionary-syntax.git"
+    },
+    "bugs": {
+        "url": "https://github.com/tcd/vscode-dictionary-syntax/issues"
+    },
+    "scripts": {
+        "deploy": "vsce publish",
+        "start": "npm run deploy"
+    },
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "galleryBanner": {
+        "color": "#1E1E1E",
+        "theme": "dark"
+    },
+    "icon": "assets/logo.png",
+    "categories": [
+        "Programming Languages",
+        "Language Packs",
+        "Other"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "dictionary",
+                "aliases": [
+                    "Dictionary",
+                    "dictionary"
+                ],
+                "extensions": [
+                    ".dict",
+                    ".dictionary",
+                    ".dictionary.txt",
+                    ".dict.txt"
+                ],
+                "filenames": [
+                ],
+                "firstLine": "^#.*Dictionary.*$",
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "dictionary",
+                "scopeName": "source.dictionary",
+                "path": "./syntaxes/dictionary.tmLanguage.json"
+            }
+        ]
+    }
+}
