@@ -7,7 +7,7 @@
             "include": "#comment"
         },
         {
-            "include": "#keywords"
+            "include": "#flags"
         }
     ],
     "repository": {
@@ -17,11 +17,18 @@
             "end": "$",
             "patterns": []
         },
-        "keywords": {
+        "flags": {
             "patterns": [
                 {
-                    "name": "keyword.operator.flag.dictionary",
-                    "match": "(^\\!)"
+                    "match": "^\\(!)(.+)$",
+                    "captures": {
+                        "1": {
+                            "name": "keyword.operator.flag.dictionary"
+                        },
+                        "2": {
+                            "name": "variable.flaged.dictionary"
+                        }
+                    }
                 }
             ]
         }

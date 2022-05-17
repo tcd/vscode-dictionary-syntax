@@ -2,7 +2,7 @@
     "name": "vscode-dictionary-syntax",
     "displayName": "vscode-dictionary-syntax",
     "description": "Syntax highlighting for dictionary files. Not much different from plain text files.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "MIT",
     "publisher": "dunstontc",
     "repository": {

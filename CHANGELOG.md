@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 
 <!-- ## [Unreleased] -->
 
+## [0.1.1] - 2022-05-17
+### Changed
+- Removed settings in `language-configuration.json` that caused crashes.
+- Altered `dictionary.tmLanguage.json`; hopefully for the better.
+
+
 ## [0.1.0] - 2022-05-17
 ### Added
 - Added files:
@@ -32,7 +38,7 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 <!-- Releases                                                                -->
 <!-- ----------------------------------------------------------------------- -->
 
-[0.0.1]: https://github.com/tcd/vscode-dictionary-syntax/releases/tag/v0.0.1
+[0.0.1]: https://github.com/tcd/vscode-dictionary-syntax/releases/tag/v0.1.0
 [unreleased]: https://github.com/tcd/vscode-dictionary-syntax
 
 <!-- ----------------------------------------------------------------------- -->
