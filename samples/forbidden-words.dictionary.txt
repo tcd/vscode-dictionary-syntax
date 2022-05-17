@@ -4,5 +4,9 @@
 !customize
 !favor
 !favorite
+# not so forbidden
+goodHereTho
 !meter
 !savor
+# this is okay too
+saviour

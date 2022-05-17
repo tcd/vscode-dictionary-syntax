@@ -6,7 +6,11 @@ The format is based on [Keep a Changelog][keep-a-changelog],
 and this project adheres to [Semantic Versioning][semantic-versioning].
 
 
-<!-- ## [Unreleased] -->
+## [1.0.0] - 2022-05-17
+Based on what I know, this seems good enough for an initial release.
+### Changed
+- Refined `dictionary.tmLanguage.json` to a state that I'm comfortable with.
+
 
 ## [0.1.1] - 2022-05-17
 ### Changed
@@ -38,7 +42,9 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 <!-- Releases                                                                -->
 <!-- ----------------------------------------------------------------------- -->
 
-[0.0.1]: https://github.com/tcd/vscode-dictionary-syntax/releases/tag/v0.1.0
+[1.0.0]: https://github.com/tcd/vscode-dictionary-syntax/releases/tag/v1.0.0
+[0.1.1]: https://github.com/tcd/vscode-dictionary-syntax/releases/tag/v0.1.1
+[0.1.0]: https://github.com/tcd/vscode-dictionary-syntax/releases/tag/v0.1.0
 [unreleased]: https://github.com/tcd/vscode-dictionary-syntax
 
 <!-- ----------------------------------------------------------------------- -->
