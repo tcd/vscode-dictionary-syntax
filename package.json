@@ -53,5 +53,8 @@
                 "path": "./syntaxes/dictionary.tmLanguage.json"
             }
         ]
+    },
+    "dependencies": {
+        "vsce": "^2.7.0"
     }
 }

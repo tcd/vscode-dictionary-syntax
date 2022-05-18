@@ -1,6 +1,10 @@
-.gitignore
 .vscode
-ignore
-samples
 assets/alt
 assets/src
+!assets/logo.png
+ignore
+node_modules
+samples
+!syntaxes
+.gitignore
+package-lock.json

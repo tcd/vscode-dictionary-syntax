@@ -4,3 +4,4 @@ node_modules
 ignore
 assets/alt
 assets/src
+vsix
